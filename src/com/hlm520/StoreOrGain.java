@@ -65,7 +65,7 @@ public class StoreOrGain
  public void store(String content) {
 	storeFile(content);
 }
- public void stroeNext(String content) {
+ public void storeNext(String content) {
 	String oldcon = gainWithNative();
 	storeFile((oldcon+"\n")+content);
 }
@@ -160,7 +160,7 @@ public class StoreOrGain
            {
             mNewPath = oldpath.substring(0,i1+1);
             length--;
-            b=i1+1;//ÈÃÑ­»·Í£Ö¹
+            b=i1+1;//è®©å¾ªç¯åœæ­¢
             file.renameTo(new File(mNewPath+"/"+newname));
             isRename=true;
            }
@@ -171,8 +171,8 @@ public class StoreOrGain
        }
         else {
         length--;
-        i1=length-1;//ÕâÀïÖ¸¶¨i1µÄÖµ£¬Ö»Òª²»³öÏÖ"."¾ÍÕâÃ´²Ù×÷£¬±£Ö¤Ñ­»·¿ÉÒÔ¼ÌĞø
-        i=i1;//ÈÃi=i1£¬Ê¹µÃÔÚÑ­»·Ìõ¼şÊ±ÈÃi1¿ÉÒÔ±ä»Ø±ÈlengthĞ¡1µÄÖµ
+        i1=length-1;//è¿™é‡ŒæŒ‡å®ši1çš„å€¼ï¼Œåªè¦ä¸å‡ºç°"."å°±è¿™ä¹ˆæ“ä½œï¼Œä¿è¯å¾ªç¯å¯ä»¥ç»§ç»­
+        i=i1;//è®©i=i1ï¼Œä½¿å¾—åœ¨å¾ªç¯æ¡ä»¶æ—¶è®©i1å¯ä»¥å˜å›æ¯”lengthå°1çš„å€¼
        }
      }
 	return isRename;
