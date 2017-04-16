@@ -1,5 +1,7 @@
-package com.hlm520;
+package com.demo.hlm520;
 import android.util.Log;
+import com.hlm520.FileFactory;
+import com.hlm520.StoreOrGain;
 
 public class Standard {
  
