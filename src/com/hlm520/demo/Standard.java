@@ -2,7 +2,11 @@ package com.demo.hlm520;
 import android.util.Log;
 import com.hlm520.FileFactory;
 import com.hlm520.StoreOrGain;
-
+/**
+ * 这个文件演示如何正确使用
+ * 均为标准用法
+ * 请遵循规范避免错误
+ */
 public class Standard {
  
   //先说FileFactory的具体使用，
