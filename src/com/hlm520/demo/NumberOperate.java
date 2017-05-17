@@ -64,10 +64,10 @@ public class NumberOperate {
      * 因为在上文中我们存入了一个int数据1024和float数据1.024f
      * 所以我们必须按照float的提取方法来获得数据，如下面的代码
      *
-     * 如果这时候使用gainNativeFloat()方法将出错，因为float数据无法转化为int数据，
-     *  而int数据可以可以转化为float数据。
+     * 如果这时候使用gainNativeInt()方法将出错，因为float数据无法转化为int数据，
+     *  而int数据可以转化为float数据。
      */
-    float[] data = sg.gainNativeFloat ( );//是一个int数组
+    float[] data = sg.gainNativeFloat ( );//是一个float   
     for ( float data2:data ) {
       System.out.println ( data2 );
      }
