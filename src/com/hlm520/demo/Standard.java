@@ -4,7 +4,7 @@ import com.hlm520.data.file.Index;
 import com.hlm520.data.file.StoreGain;
 
 /**
- * 这个文件演示如何正确使用该项目的FilePlay对象
+ * 这个demo文件演示如何正确使用该项目的FilePlay对象
  * 此为标准用法
  * 如果您研究项目源码，会发现还有其它方法来创建此对象
  * 请遵循该规范避免后续数据操作错误
