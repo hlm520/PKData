@@ -1,6 +1,7 @@
 package com.hlm520.data.file;
 
-import com.hlm520.data.file.ExceptionFile.FilePathError;
+import com.hlm520.ExceptionFile.FilePathError;
+
 class PathPrefix  {
 
 	
